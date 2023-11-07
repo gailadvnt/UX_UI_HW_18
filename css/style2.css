@@ -233,4 +233,12 @@ margin-right: 8px;
     #nmpLPic {
             display: none;
         }
+
+    #triplyLPic {
+    display:none;
+    }
+
+    #triplyRPic {
+    display:none;
+    }
 }
