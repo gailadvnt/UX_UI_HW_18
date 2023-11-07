@@ -242,10 +242,10 @@ margin-right: 8px;
     
         
         #nmpRPic {
-            opacity: 0;
+            display:none;
         }
 
         #nmpLPic {
-            opacity: o;
+            display: none;
         }
 }
