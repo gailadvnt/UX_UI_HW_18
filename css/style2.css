@@ -225,7 +225,7 @@ margin-right: 8px;
         line-height: 48px;
         }
         
-@media only screen and (max-width:600) {
+@media only screen and (max-width:600px) {
      #nmpRPic {
             display:none;
         }
