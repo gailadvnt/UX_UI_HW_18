@@ -1,7 +1,7 @@
 body {
     font-family: 'Crimson Pro';
-    background-image: url("Pink Wallpaper.png");
-    background-color:#ffffff;
+    background-image: url("backgroundimage.png");
+    background-color:#000000;
     background-repeat: no-repeat;
     background-size: cover;
     
@@ -37,12 +37,13 @@ nav {
         Left: 50%;
         Transform: translate(-50%, -50%);
         z-index: 300;
+        cursor: pointer;
         
  }
 
  .title {
 text-align: center;
-background-color: #E4DEDF;
+background-color:  rgba(228, 222,223,0.95);
 width: 100vw;
 padding:16px;
 margin-bottom: 104px;
@@ -68,37 +69,43 @@ letter-spacing: 0.8px;
 line-height: 48px;
  }
 
- .projects {
-/* display: flex; */
- }
+
 
  .nmp {
 text-align: center;
-background-color: #E4DEDF;
+background-color:  rgba(228, 222,223,0.95);
 margin-bottom: 104px;
 margin-left: auto;
 margin-right: auto;
-padding-top: 8px;
-padding-bottom: 8px;
+padding-top: 80px;
+padding-bottom: 80px;
 padding-left: 0px;
 padding-right: 0px;
 border-radius: 90px;
 max-width: 1114px;
-/* justify-content: center; */
-/* left: 50%;
-Transform: translate(-50%, -50%); */
+position: relative;
  }
 
- .nmp div {
-/* justify-content: center; */
- }
+#nmpLPic {
+position: absolute;
+top: 24%;
+left: 8%;
+}
+
+#nmpRPic {
+position: absolute;
+top: 24%;
+right: 8%;
+}
 
  .nmp h2 {
 font-size: 24px;
 font-weight: 400;
 letter-spacing: 0.8px;
 line-height: 48px;
-padding: 8px;
+padding-left: 8px;
+padding-right: 8px;
+padding-bottom: 8px;
  }
 
  .nmp p {
@@ -107,21 +114,30 @@ font-weight: 400;
 letter-spacing: 0.8px;
 line-height: 48px;
 padding: 8px;
+
+ }
+
+ .nmp div {
+    max-width: 375px;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
  }
 
 
  .triply {
 text-align: center;
-background-color: #E4DEDF;
+background-color:  rgba(228, 222,223,0.95);
 margin-bottom: 104px;
 margin-left: auto;
 margin-right: auto;
-padding-top: 8px;
-padding-bottom: 8px;
+padding-top: 85px;
+padding-bottom: 85px;
 padding-left: 0px;
 padding-right: 0px;
 border-radius: 90px;
 max-width: 1114px;
+position:relative;
  }
 
  .triply h2 {
@@ -129,7 +145,9 @@ max-width: 1114px;
     font-weight: 400;
     letter-spacing: 0.8px;
     line-height: 48px;
-    padding: 8px;
+    padding-top: 8px;
+    padding-left: 8px;
+    padding-right: 8px;;
  }
 
 .triply p {
@@ -137,8 +155,22 @@ max-width: 1114px;
     font-weight: 400;
     letter-spacing: 0.8px;
     line-height: 48px;
-    padding: 8px;
+    padding-top:8px;
+    padding-left:8px;
+    padding-right: 8px;
 }
+
+#triplyLPic {
+position: absolute;
+top: 15%;
+left: 15%;
+}
+
+#triplyRPic {
+    position: absolute;
+    top: 15%;
+    right: 10%;
+    }
 
 
  button {
@@ -173,7 +205,7 @@ margin-right: 8px;
         justify-content: flex-end;
         align-items: center;
         margin-right: 48px;
-        margin-top: 416px;
+        margin-top: 0px;
         }
         
         footer img {
@@ -192,3 +224,28 @@ margin-right: 8px;
         line-height: 48px;
         }
         
+@media only screen and (max-width:600) {
+    .nmp {
+        text-align: center;
+        background-color:  rgba(228, 222,223,0.95);
+        margin-bottom: 104px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 200px;
+        padding-bottom: 200px;
+        padding-left: 0px;
+        padding-right: 0px;
+        border-radius: 90px;
+        max-width: 1114px;
+        position: relative;
+         }
+    
+        
+        #nmpRPic {
+            opacity: 0;
+        }
+
+        #nmpLPic {
+            opacity: o;
+        }
+}
