@@ -226,27 +226,11 @@ margin-right: 8px;
         }
         
 @media only screen and (max-width:600) {
-    .nmp {
-        text-align: center;
-        background-color:  rgba(228, 222,223,0.95);
-        margin-bottom: 104px;
-        margin-left: auto;
-        margin-right: auto;
-        padding-top: 200px;
-        padding-bottom: 200px;
-        padding-left: 0px;
-        padding-right: 0px;
-        border-radius: 90px;
-        max-width: 1114px;
-        position: relative;
-         }
-    
-        
-        #nmpRPic {
+     #nmpRPic {
             display:none;
         }
 
-        #nmpLPic {
+    #nmpLPic {
             display: none;
         }
 }
